@@ -189,5 +189,5 @@ Didistribusikan di bawah Lisensi MIT. Lihat [`LICENSE`](LICENSE) untuk informasi
 ---
 
 <div align="center">
-Dibuat dengan ❤️ oleh <b>Akmal Ghanim</b> untuk mahasiswa Universitas Gunadarma.
+Dibuat oleh <b>Akmal Ghanim</b> untuk mahasiswa Universitas Gunadarma.
 </div>
