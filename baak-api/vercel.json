@@ -1,0 +1,8 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "functions": {
+    "api/**/*.go": {
+      "maxDuration": 60
+    }
+  }
+}

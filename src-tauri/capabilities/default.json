@@ -1,0 +1,136 @@
+{
+  "identifier": "default",
+  "description": "Default capabilities for bingungundar",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    {
+      "identifier": "fs:default",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-exists",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-mkdir",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-read-dir",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-read-file",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-read-text-file",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-write-file",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-write-text-file",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "fs:allow-remove",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    "shell:allow-execute",
+    "shell:allow-spawn",
+    "shell:allow-open",
+    "dialog:default",
+    "opener:default",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    },
+    {
+      "identifier": "opener:allow-reveal-item-in-dir",
+      "allow": [
+        {
+          "path": "$DOCUMENT/bingungundar"
+        },
+        {
+          "path": "$DOCUMENT/bingungundar/**"
+        }
+      ]
+    }
+  ]
+}
