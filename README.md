@@ -193,4 +193,10 @@ bingungundar/
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Didistribusikan di bawah [Lisensi MIT](LICENSE).
+
+---
+
+<div align="center">
+Dibuat oleh <b>Akmal Ghanim</b> untuk mahasiswa Universitas Gunadarma.
+</div>
